@@ -1,0 +1,34 @@
+
+// 5. Add additional custom code here
+$font-weight-normal:          400;
+$font-family-sans-serif: 'Poppins', sans-serif;
+$theme-colors: (
+  "primary": #1D70BC,
+  "info": #2c97de,
+  "light": #fff,
+  "dark": #353c45,
+  "warning": #efc663,
+  "danger" : #e16070,
+  "secondary" : #cbc0ea,
+  "indigo": #7061af,
+  "purple": #6f42c1,
+  "success": #87d68d,
+
+);
+$nav-pills-link-active-bg: #cbc0ea;
+$nav-pills-link-active-color: #272727;
+$list-group-active-bg:  #e0d4ff;
+$list-group-active-color:  #272727;
+$border-radius-lg: .6rem;
+
+// .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+
+@import '../../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// "primary": #4c38a5,
+// "warning": #f3cc5c,
+// "danger" : #E54F6D,
+// "secondary" : #cbc0ea,
+// "indigo": #7061af,
+// "purple": #6f42c1,
+// "success": #87d68d,
